@@ -1,18 +1,18 @@
 ---
 label: landing-page
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: landing-page
 - name: folder
   label: Folder
   type: text
   hidden: false
-  default: ''
+  default: "/company-name"
 - name: logo
   label: Logo
   type: file
