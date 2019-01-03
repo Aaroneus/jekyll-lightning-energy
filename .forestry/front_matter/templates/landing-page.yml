@@ -12,7 +12,7 @@ fields:
   label: Folder
   type: text
   hidden: false
-  default: "/company-name"
+  default: "/demo"
 - name: logo
   label: Logo
   type: file
@@ -22,37 +22,37 @@ fields:
   label: Hero banner heading
   type: text
   hidden: false
-  default: ''
+  default: Discover the Right Tariff for you
 - name: hero-banner-link-text
   label: Hero banner link text
   type: text
   hidden: false
-  default: ''
+  default: Get Started
 - name: header-section-title
   label: Header section title
   type: text
   hidden: false
-  default: ''
+  default: Boiler Care
 - name: header-section-text
   label: Header section text
   type: textarea
   hidden: false
-  default: ''
+  default: Boiler Care Text
 - name: header-section-button
   label: Header section button
   type: text
   hidden: false
-  default: ''
+  default: Learn More
 - name: section-two-col1-heading
   label: Section two col1 heading
   type: text
   hidden: false
-  default: ''
+  default: Smart Meters
 - name: section-two-col1-text
   label: Section two col1 text
   type: text
   hidden: false
-  default: ''
+  default: Smart Meters Text
 - name: section-two-col1-image
   label: Section two col1 image
   type: file
@@ -62,12 +62,12 @@ fields:
   label: Section two col2 heading
   type: text
   hidden: false
-  default: ''
+  default: Renewable Energy Tariffs
 - name: section-two-col2-text
   label: Section two col2 text
   type: text
   hidden: false
-  default: ''
+  default: Renewable Energy Text
 - name: section-two-col2-image
   label: Section two col2 image
   type: file
@@ -77,44 +77,44 @@ fields:
   label: Section three col1 heading
   type: text
   hidden: false
-  default: ''
+  default: Insulation
 - name: section-three-col1-text
   label: Section three col1 text
   type: textarea
   hidden: false
-  default: ''
+  default: Insulation Text
 - name: section-three-col1-button
   label: Section three col1 button
   type: text
   hidden: false
-  default: ''
+  default: Learn More
 - name: section-three-col2-heading
   label: Section three col2 heading
   type: text
   hidden: false
-  default: ''
+  default: Radiators
 - name: section-three-col2-text
   label: Section three col2 text
   type: text
   hidden: false
-  default: ''
+  default: Radiator Text
 - name: section-three-col2-button
   label: Section three col2 button
   type: text
   hidden: false
-  default: ''
+  default: Learn More
 - name: section-three-col3-heading
   label: Section three col3 heading
   type: text
   hidden: false
-  default: ''
+  default: Boilers
 - name: section-three-col3-text
   label: Section three col3 text
   type: textarea
   hidden: false
-  default: ''
+  default: Boiler Text
 - name: section-three-col3-button
   label: Section three col3 button
   type: text
   hidden: false
-  default: ''
+  default: Learn More
