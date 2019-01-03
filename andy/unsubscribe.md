@@ -12,6 +12,5 @@ offers-row2-heading: asdxzczxc
 offers-row2-image: "/uploads/pic09.jpg"
 offers-row2-text: asdasdasdasd
 date: 2019-01-03 15:17:00 +0000
-published: false
 
 ---
