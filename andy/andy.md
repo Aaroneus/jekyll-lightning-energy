@@ -9,7 +9,7 @@ first-paragraph: sdofsdkofjkosdjiojdsafjdsiofjodsj iojdsfikojadsiof jadsiofdsf l
 second-paragraph: 'asdfnadsklf iasdfjk iopjkadsiof jioadsjfiodjsfio jdsiofj iodsjio
   jioadsfjsdkl;kdsjfio0 '
 main-image: "/uploads/pic02.jpg"
-banner-color: ''
+banner-color: "#000290"
 content-header: Wahey!
 content-paragraph: okjsdfioj iodsfjk iodsfj oidsafj iodsjfiojsdfjsfj asdfpo kadsipf
   j

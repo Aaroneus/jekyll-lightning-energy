@@ -89,5 +89,5 @@ fields:
   hidden: false
   default: unsubscribe from all emails
 pages:
-- Axa/email-2.md
 - andy/andy.md
+- Axa/email-2.md
