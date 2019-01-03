@@ -1,6 +1,7 @@
 ---
 layout: default-email
 title: email
+folder: /demo
 
 logo: /images/lightning_email_logo.png
 banner-color: 395BCF
@@ -18,6 +19,10 @@ manage-preferences-button-text: Manage my emails
 
 consentric-token: f345cda66abac4acb96fac0329ddf5d6
 consentric-widget-id: JcHQa2GUU6s
+consentric-template-id: AmEcieqxpP8
+
+manage-preferences-link-text: Manage my preferences
+unsubscribe-link-text: unsubscribe from all emails
 
 ---
 <body bgcolor="#FAFAFA" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; background-color: #FAFAFA; margin: 0; padding: 0;">
@@ -252,7 +257,7 @@ consentric-widget-id: JcHQa2GUU6s
                                         <tr>
                                           <td align="center" bgcolor="395BCF" style="background-color: 395BCF; margin: auto; max-width: 600px; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; padding: 10px 40px; "
                                             width="100%">
-                                            <!--[if mso]>&nbsp;<![endif]--><a href="https://demoutilities.z35.web.core.windows.net/unsubscribe.html?templateId=AmEcieqxpP8&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
+                                            <!--[if mso]>&nbsp;<![endif]--><a href="{{ site.url }}{{ site.baseurl }}{{ page.folder }}/unsubscribe.html?templateId={{ page.consentric-template-id }}&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
                                               style="font-family: Arial, sans-serif;  font-weight: 100; text-align:center; background-  border: none; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; display: inline-block;text-decoration:none;color: #ffffff;"
                                               target="_blank"><span style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; font-weight:normal; line-height:1.5em; text-align:center;">{{ page.manage-preferences-button-text }}</span> </a>
                                             <!--[if mso]>&nbsp;<![endif]-->
@@ -293,14 +298,13 @@ consentric-widget-id: JcHQa2GUU6s
                       <tr>
                         <td align="left" class="footerContent original-only" pardot-region="footer_content02" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #808080; font-family: Helvetica; font-size: 10px; line-height: 15px; text-align: left; padding: 0 20px 20px;"
                           valign="top"><a href="https://consentric.io/wp-content/uploads/2018/05/MLD-POL-031-Privacy-Policy-May-2018-1.pdf"
-                            style="color: #606060;">view our privacy policy</a><br>
+                            style="color: #606060;">view our privacy policy</a><br>                          
                           <br>
-                          <a href="https://demoutilities.z35.web.core.windows.net/unsubscribe.html?templateId=AmEcieqxpP8&amp;token=f345cda66abac4acb96fac0329ddf5d6&amp;widgetId=JcHQa2GUU6s"
-                            style="color: #606060;">Manage my preferences</a><br>
+                          <a href="{{ site.url }}{{ site.baseurl }}{{ page.folder }}/unsubscribe.html?templateId={{ page.consentric-template-id }}&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
+                            style="color: #606060;">{{ page.manage-preferences-link-text }}</a><br>
                           <br>
-                          <a href="https://demoutilities.z35.web.core.windows.net/unsubscribe.html?templateId=AmEcieqxpP8&amp;token=f345cda66abac4acb96fac0329ddf5d6&amp;widgetId=JcHQa2GUU6s"
-                            style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;">unsubscribe
-                            from all emails</a>&nbsp;&nbsp;<br>
+                          <a href="{{ site.url }}{{ site.baseurl }}{{ page.folder }}/unsubscribe.html?templateId={{ page.consentric-template-id }}&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
+                            style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;">{{ page.unsubscribe-link-text }}</a>&nbsp;&nbsp;<br>
                           &nbsp;</td>
                       </tr>
                     </tbody>
