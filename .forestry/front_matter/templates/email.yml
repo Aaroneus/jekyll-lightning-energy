@@ -82,9 +82,9 @@ fields:
   label: Manage preferences link text
   type: text
   hidden: false
-  default: ''
+  default: Manage my preferences
 - name: unsubscribe-link-text
   label: Unsubscribe link text
   type: text
   hidden: false
-  default: ''
+  default: unsubscribe from all emails
