@@ -1,0 +1,120 @@
+---
+label: landing-page
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: folder
+  label: Folder
+  type: text
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: file
+  hidden: false
+  default: ''
+- name: hero-banner-heading
+  label: Hero banner heading
+  type: text
+  hidden: false
+  default: ''
+- name: hero-banner-link-text
+  label: Hero banner link text
+  type: text
+  hidden: false
+  default: ''
+- name: header-section-title
+  label: Header section title
+  type: text
+  hidden: false
+  default: ''
+- name: header-section-text
+  label: Header section text
+  type: textarea
+  hidden: false
+  default: ''
+- name: header-section-button
+  label: Header section button
+  type: text
+  hidden: false
+  default: ''
+- name: section-two-col1-heading
+  label: Section two col1 heading
+  type: text
+  hidden: false
+  default: ''
+- name: section-two-col1-text
+  label: Section two col1 text
+  type: text
+  hidden: false
+  default: ''
+- name: section-two-col1-image
+  label: Section two col1 image
+  type: file
+  hidden: false
+  default: ''
+- name: section-two-col2-heading
+  label: Section two col2 heading
+  type: text
+  hidden: false
+  default: ''
+- name: section-two-col2-text
+  label: Section two col2 text
+  type: text
+  hidden: false
+  default: ''
+- name: section-two-col2-image
+  label: Section two col2 image
+  type: file
+  hidden: false
+  default: ''
+- name: section-three-col1-heading
+  label: Section three col1 heading
+  type: text
+  hidden: false
+  default: ''
+- name: section-three-col1-text
+  label: Section three col1 text
+  type: textarea
+  hidden: false
+  default: ''
+- name: section-three-col1-button
+  label: Section three col1 button
+  type: text
+  hidden: false
+  default: ''
+- name: section-three-col2-heading
+  label: Section three col2 heading
+  type: text
+  hidden: false
+  default: ''
+- name: section-three-col2-text
+  label: Section three col2 text
+  type: text
+  hidden: false
+  default: ''
+- name: section-three-col2-button
+  label: Section three col2 button
+  type: text
+  hidden: false
+  default: ''
+- name: section-three-col3-heading
+  label: Section three col3 heading
+  type: text
+  hidden: false
+  default: ''
+- name: section-three-col3-text
+  label: Section three col3 text
+  type: textarea
+  hidden: false
+  default: ''
+- name: section-three-col3-button
+  label: Section three col3 button
+  type: text
+  hidden: false
+  default: ''
