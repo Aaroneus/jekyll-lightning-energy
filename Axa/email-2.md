@@ -7,7 +7,7 @@ greeting: Hi Adam
 first-paragraph: Yo
 second-paragraph: Yo Yo
 main-image: "/uploads/pic09.jpg"
-banner-color: "#AF2D2D"
+banner-color: "#161D69"
 content-header: We love insurance
 content-paragraph: Yo Yo
 manage-preferences-button-text: Manage Preferences
