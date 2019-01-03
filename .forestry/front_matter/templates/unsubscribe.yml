@@ -1,0 +1,60 @@
+---
+label: unsubscribe
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: folder
+  label: Folder
+  type: text
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: file
+  hidden: false
+  default: ''
+- name: unsub-banner-heading
+  label: Unsub banner heading
+  type: text
+  hidden: false
+  default: ''
+- name: widget-heading
+  label: Widget heading
+  type: text
+  hidden: false
+  default: ''
+- name: offers-row1-heading
+  label: Offers row1 heading
+  type: text
+  hidden: false
+  default: ''
+- name: offers-row1-image
+  label: Offers row1 image
+  type: file
+  hidden: false
+  default: ''
+- name: offers-row1-text
+  label: Offers row1 text
+  type: text
+  hidden: false
+  default: ''
+- name: offers-row2-heading
+  label: Offers row2 heading
+  type: text
+  hidden: false
+  default: ''
+- name: offers-row2-image
+  label: Offers row2 image
+  type: file
+  hidden: false
+  default: ''
+- name: offers-row2-text
+  label: Offers row2 text
+  type: text
+  hidden: false
+  default: ''
