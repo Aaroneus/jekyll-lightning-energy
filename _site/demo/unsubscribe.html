@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lightning Energy</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="shortcut icon" type="image/x-icon" href="/jekyll-lightning-energy/favicon.ico">
+		<link rel="stylesheet" href="/jekyll-lightning-energy/assets/css/main.css" />
+	</head>
+	<body>
+        <body>
+
+	<!-- Header -->
+<header id="header">
+	<div class="inner">
+		<img class="logo" src="/jekyll-lightning-energy/images/lightning-energy-logo.png" width="200px" height="100px" />
+		<nav id="nav">
+			<a href="/jekyll-lightning-energy/index.html">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+			<a href="https://consentricutilitydemo.force.com/myaccount/s/login/">My Account</a>
+		</nav>
+	</div>
+</header>
+<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+	<!-- Banner -->
+	<section id="unsubbanner">
+		<div class="inner">
+			<h1>Stay Plugged In To Receive The Best Deals
+				<span><br />
+				</span>
+			</h1>
+		</div>
+	</section>
+
+	<!-- Two -->
+	<section id="two">
+		<div class="inner">
+			<article>
+				<div class="content">
+					<header>
+						<h3>Manage your Preferences</h3>
+					</header>
+					<div id="widget-container"></div>
+				</div>
+			</article>
+			<article class="alt">
+				<div class="content">
+					<header>
+						<h3>Get The Latest Broadband Deals</h3>
+					</header>
+					<div class="image fit">
+						<img src="images/pic02.jpg" alt="" />
+					</div>
+					<p>Exciting phone and broadband bundles.</p>
+				</div>
+				<div class="content">
+						<header>
+							<h3>Save £100 off a new Boiler</h3>
+						</header>
+						<div class="image fit">
+							<img src="images/radiator-250558_640.jpg" alt="" />
+						</div>
+						<p>Great savings on named brand boilers such as Worcestor, Bosch and Potterton.</p>
+					</div>
+			</article>
+		</div>
+	</section>
+
+	<!-- Footer -->
+<section id="footer">
+	<div class="inner">
+		<div class="copyright">
+			<a href="https://consentric.io/">&copy; MyLifeDigital</a>. Images <a href="https://unsplash.com/">Unsplash</a>
+		</div>
+	</div>
+</section>
+
+	<!-- Scripts -->
+	<!-- Scripts -->
+<script src="/jekyll-lightning-energy/assets/js/jquery.min.js"></script>
+<script src="/jekyll-lightning-energy/assets/js/skel.min.js"></script>
+<script src="/jekyll-lightning-energy/assets/js/util.js"></script>
+<script src="/jekyll-lightning-energy/assets/js/main.js"></script>
+	
+	<script src="/jekyll-lightning-energy/assets/js/widget-extension.js"></script>
+	<script async>
+		var urlParams = new URLSearchParams(window.location.search);
+		var templateId = urlParams.get('templateId');
+		var widgetId = urlParams.get('widgetId') || '';
+
+		var widget_config = {
+			templateId: `${templateId}`,
+			widgetId: `${widgetId}`
+		};
+
+		widget_config.onOptionChange = function (data) {
+			console.log("############## On Change");
+			console.log(data);
+			
+
+		};
+		
+		widget_config.onLoad = function (arrayOfData) {
+			initialisePageState(arrayOfData);
+    	};
+
+		(function () {
+			var d = document, s = d.createElement('script');
+			s.src = `https://demo-widget-v2.consentric.io/public/init.js`;
+			s.id = 'init';
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+</body>
+
+</html>
+	</body>
+</html>

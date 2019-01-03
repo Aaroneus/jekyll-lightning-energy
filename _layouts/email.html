@@ -1,15 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <!-- Facebook sharing information tags -->
-  <meta property="og:title" content="Lightning Energy" />
-
-  <title>Lightning Energy</title>
-</head>
-
-<body bgcolor="#FAFAFA" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; background-color: #FAFAFA; margin: 0; padding: 0;">
+---
+layout: default-email
+---
 <body bgcolor="#FAFAFA" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; background-color: #FAFAFA; margin: 0; padding: 0;">
     <style type="text/css">
       #outlook a {
@@ -177,7 +168,7 @@
                             <table border="0" cellpadding="20" cellspacing="0" width="100%">
                               <tbody>
                                 <tr>
-                                  <td align="center" bgcolor="395BCF"><img alt="" border="0" height="100" src="/jekyll-lightning-energy/images/lightning_email_logo.png"
+                                  <td align="center" bgcolor="{{ page.banner-color }}"><img alt="" border="0" height="100" src="{{ page.logo | relative_url }}"
                                       style="width: 192px; height: 100px; border-width: 0px; border-style: solid;" width="192"></td>
                                 </tr>
                               </tbody>
@@ -198,13 +189,13 @@
                       <tbody>
                         <tr pardot-repeatable="" class="">
                           <td align="left" class="bodyContent" pardot-region="body_content00" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;"
-                            valign="top">Hello there,<br>
+                            valign="top">{{ page.greeting }},<br>
                             <br>
-                            You recently called us to book a smart meter installation. You should now have received confirmation of your appointment, and be all set for our engineer’s visit.&nbsp;During the call we also asked if you’d be interested in taking part in a trial, which you kindly agreed to do.&nbsp;</td>
+                            {{ page.first-paragraph }}</td>
                         </tr>
                         <tr pardot-repeatable="">
                           <td align="left" class="bodyContent" pardot-region="body_content00" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;"
-                            valign="top">We’re delighted to inform you that you’ll be using our Smart Energy App with your smart meter(s), rather than a Smart Energy Tracker handheld device. We’re really excited about the App, and think it will transform the way our customers engage with their energy. We hope that the trial will prove this.</td>
+                            valign="top">{{ page.second-paragraph }}</td>
                         </tr>
                         <tr pardot-repeatable="">
                           <td align="left" class="bodyContent" pardot-region="body_content00" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;"
@@ -212,7 +203,7 @@
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                               <tbody>
                                 <tr>
-                                  <td align="center" bgcolor="ffffff"><img alt="" border="0" height="237" src="/jekyll-lightning-energy/images/lightning_email_main_image.jpg"
+                                  <td align="center" bgcolor="ffffff"><img alt="" border="0" height="237" src="{{ page.main-image | relative_url }}"
                                       style="width: 600px; height: 237px; border-width: 0px; border-style: solid;" width="600"></td>
                                 </tr>
                               </tbody>
@@ -223,10 +214,10 @@
                           <td align="left" class="bodyContent" pardot-region="body_content00" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 14px; line-height: 21px; text-align: left; padding: 20px;"
                             valign="top">
                             <div style="text-align: center; font-size: 16px;"><strong>
-                                <font>Communicating with you, your way</font>
+                                <font>{{ page.content-header }}</font>
                               </strong></div>
                             <br>
-                            We want to make sure you only receive emails relevant to you, so we put you in control of the email topics you&nbsp;receive. Manage whether you receive our emails on renewable energy alternatives, energy saving products and more on the link below.
+                            {{ page.content-paragraph }}
                           </td>
                         </tr>
                         <tr pardot-repeatable="" class="">
@@ -242,9 +233,9 @@
                                           <tr>
                                             <td align="center" bgcolor="395BCF" style="background-color: 395BCF; margin: auto; max-width: 600px; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; padding: 10px 40px; "
                                               width="100%">
-                                              <!--[if mso]>&nbsp;<![endif]--><a href="http://localhost:4000/jekyll-lightning-energy/demo/unsubscribe.html?templateId=AmEcieqxpP8&amp;token=f345cda66abac4acb96fac0329ddf5d6&amp;widgetId=JcHQa2GUU6s"
+                                              <!--[if mso]>&nbsp;<![endif]--><a href="{{ site.url }}{{ site.baseurl }}{{ page.folder }}/unsubscribe.html?templateId={{ page.consentric-template-id }}&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
                                                 style="font-family: Arial, sans-serif;  font-weight: 100; text-align:center; background-  border: none; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; display: inline-block;text-decoration:none;color: #ffffff;"
-                                                target="_blank"><span style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; font-weight:normal; line-height:1.5em; text-align:center;">Manage my emails</span> </a>
+                                                target="_blank"><span style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; font-weight:normal; line-height:1.5em; text-align:center;">{{ page.manage-preferences-button-text }}</span> </a>
                                               <!--[if mso]>&nbsp;<![endif]-->
                                             </td>
                                           </tr>
@@ -285,11 +276,11 @@
                             valign="top"><a href="https://consentric.io/wp-content/uploads/2018/05/MLD-POL-031-Privacy-Policy-May-2018-1.pdf"
                               style="color: #606060;">view our privacy policy</a><br>                          
                             <br>
-                            <a href="http://localhost:4000/jekyll-lightning-energy/demo/unsubscribe.html?templateId=AmEcieqxpP8&amp;token=f345cda66abac4acb96fac0329ddf5d6&amp;widgetId=JcHQa2GUU6s"
-                              style="color: #606060;">Manage my preferences</a><br>
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ page.folder }}/unsubscribe.html?templateId={{ page.consentric-template-id }}&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
+                              style="color: #606060;">{{ page.manage-preferences-link-text }}</a><br>
                             <br>
-                            <a href="http://localhost:4000/jekyll-lightning-energy/demo/unsubscribe.html?templateId=AmEcieqxpP8&amp;token=f345cda66abac4acb96fac0329ddf5d6&amp;widgetId=JcHQa2GUU6s"
-                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;">unsubscribe from all emails</a>&nbsp;&nbsp;<br>
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ page.folder }}/unsubscribe.html?templateId={{ page.consentric-template-id }}&amp;token={{ page.consentric-token }}&amp;widgetId={{ page.consentric-widget-id }}"
+                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;">{{ page.unsubscribe-link-text }}</a>&nbsp;&nbsp;<br>
                             &nbsp;</td>
                         </tr>
                       </tbody>
@@ -306,6 +297,3 @@
     </table>
     <br>
   
-</body>
-
-</html>

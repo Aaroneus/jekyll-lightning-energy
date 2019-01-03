@@ -1,0 +1,92 @@
+---
+layout: default
+logo: /images/lightning-energy-logo.png
+
+unsub-banner-heading: Stay Plugged In To Receive The Best Deals 
+widget-heading: Manage your Preferences
+
+
+---
+<body>
+
+	{% include nav-header.html %}
+	<!-- Banner -->
+	<section id="unsubbanner">
+		<div class="inner">
+			<h1>{{ page.unsub-banner-heading}}
+				<span><br />
+				</span>
+			</h1>
+		</div>
+	</section>
+
+	<!-- Two -->
+	<section id="two">
+		<div class="inner">
+			<article>
+				<div class="content">
+					<header>
+						<h3>{{page.widget-heading}}</h3>
+					</header>
+					<div id="widget-container"></div>
+				</div>
+			</article>
+			<article class="alt">
+				<div class="content">
+					<header>
+						<h3>Get The Latest Broadband Deals</h3>
+					</header>
+					<div class="image fit">
+						<img src="images/pic02.jpg" alt="" />
+					</div>
+					<p>Exciting phone and broadband bundles.</p>
+				</div>
+				<div class="content">
+						<header>
+							<h3>Save £100 off a new Boiler</h3>
+						</header>
+						<div class="image fit">
+							<img src="images/radiator-250558_640.jpg" alt="" />
+						</div>
+						<p>Great savings on named brand boilers such as Worcestor, Bosch and Potterton.</p>
+					</div>
+			</article>
+		</div>
+	</section>
+
+	{% include footer.html %}
+
+	<!-- Scripts -->
+	{% include scripts.html %}	
+	<script src="{{ '/assets/js/widget-extension.js' | relative_url }}"></script>
+	<script async>
+		var urlParams = new URLSearchParams(window.location.search);
+		var templateId = urlParams.get('templateId');
+		var widgetId = urlParams.get('widgetId') || '';
+
+		var widget_config = {
+			templateId: `${templateId}`,
+			widgetId: `${widgetId}`
+		};
+
+		widget_config.onOptionChange = function (data) {
+			console.log("############## On Change");
+			console.log(data);
+			
+
+		};
+		
+		widget_config.onLoad = function (arrayOfData) {
+			initialisePageState(arrayOfData);
+    	};
+
+		(function () {
+			var d = document, s = d.createElement('script');
+			s.src = `https://demo-widget-v2.consentric.io/public/init.js`;
+			s.id = 'init';
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+</body>
+
+</html>
