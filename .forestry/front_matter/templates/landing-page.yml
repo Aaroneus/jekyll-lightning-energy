@@ -124,5 +124,11 @@ fields:
   type: text
   hidden: false
   default: Learn More
+- type: color
+  name: main-color
+  config:
+    color_format: Hex
+  label: Main Color
+  default: "#003895"
 pages:
 - Axa/landing-page.md
