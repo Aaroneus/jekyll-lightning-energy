@@ -58,3 +58,5 @@ fields:
   type: text
   hidden: false
   default: Great savings on named brand boilers such as Worcestor, Bosch and Potterton.
+pages:
+- Axa/unsubscribe.md
