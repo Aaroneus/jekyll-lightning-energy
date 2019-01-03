@@ -2,7 +2,7 @@
 layout: email
 folder: "/Axa"
 logo: "/uploads/axa_logo.png"
-title: email-2
+tab-title: email-2
 greeting: Hi Adam
 first-paragraph: Yo
 second-paragraph: Yo Yo
