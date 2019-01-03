@@ -18,7 +18,7 @@ fields:
   type: file
   hidden: false
   default: ''
-- name: title
+- name: tab-title
   label: Title
   type: text
   hidden: false
