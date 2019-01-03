@@ -10,7 +10,7 @@ main-image: "/uploads/pic09.jpg"
 banner-color: "#AF2D2D"
 content-header: We love insurance
 content-paragraph: Yo Yo
-manage-preferences-button-text: ''
+manage-preferences-button-text: Manage Preferences
 consentric-token: ''
 consentric-widget-id: ''
 consentric-template-id: ''
