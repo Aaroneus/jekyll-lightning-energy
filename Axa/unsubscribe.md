@@ -11,6 +11,5 @@ offers-row2-heading: Get a Pony
 offers-row2-image: "/uploads/pic09.jpg"
 offers-row2-text: Mmmmm Courousel
 date: 2019-01-03 14:16:29 +0000
-published: false
 
 ---
