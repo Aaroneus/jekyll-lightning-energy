@@ -1,7 +1,7 @@
 ---
 layout: landing-page
 folder: "/Axa"
-logo: "/uploads/pic01.jpg"
+logo: "/uploads/axa_logo.png"
 hero-banner-heading: Welcome To Axa
 hero-banner-link-text: We are Axaptional!
 header-section-title: We love Our Customers
