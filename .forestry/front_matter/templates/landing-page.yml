@@ -18,6 +18,12 @@ fields:
   type: file
   hidden: false
   default: ''
+- type: color
+  name: main-color
+  config:
+    color_format: Hex
+  label: 'Main Color '
+  default: "#000290"
 - name: hero-banner-heading
   label: Hero banner heading
   type: text
