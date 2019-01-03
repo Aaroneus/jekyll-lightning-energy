@@ -89,4 +89,4 @@ fields:
   hidden: false
   default: unsubscribe from all emails
 pages:
-- Axa/hallowdayre.md
+- Axa/email.md
