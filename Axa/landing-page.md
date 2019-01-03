@@ -23,6 +23,5 @@ section-three-col3-heading: Get Active
 section-three-col3-text: Get active with our Community
 section-three-col3-button: Learn More
 date: 2019-01-03 13:31:35 +0000
-published: false
 
 ---
