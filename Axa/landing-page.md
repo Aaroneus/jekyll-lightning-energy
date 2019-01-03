@@ -2,6 +2,7 @@
 layout: landing-page
 folder: "/Axa"
 logo: "/uploads/axa_logo.png"
+main-color: 385CCE
 hero-banner-heading: Welcome To Axa
 hero-banner-link-text: We are Axaptional!
 header-section-title: We love Our Customers

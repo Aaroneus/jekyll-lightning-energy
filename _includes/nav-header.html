@@ -1,7 +1,7 @@
 <!-- Header -->
-<header id="header">
+<header id="header" style="background: #{{ page.main-color }};">
 	<div class="inner">
-		<img class="logo" src="{{ page.logo | relative_url }}" width="200px" height="100px" />
+		<img class="logo" src="{{ page.logo | relative_url }}" width="200px" max-width="100%" height="100px" max-height="100%" />
 		<nav id="nav">
 			<a href="{{ page.folder | append: '/landing-page.html' | relative_url }}">Home</a>
             <a href="#">Products</a>
