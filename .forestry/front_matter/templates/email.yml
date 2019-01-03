@@ -1,0 +1,90 @@
+---
+label: email
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: folder
+  label: Folder
+  type: text
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: file
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: banner-color
+  label: Banner color
+  type: text
+  hidden: false
+  default: ''
+- name: greeting
+  label: Greeting
+  type: text
+  hidden: false
+  default: ''
+- name: first-paragraph
+  label: First paragraph
+  type: textarea
+  hidden: false
+  default: ''
+- name: second-paragraph
+  label: Second paragraph
+  type: textarea
+  hidden: false
+  default: ''
+- name: main-image
+  label: Main image
+  type: file
+  hidden: false
+  default: ''
+- name: content-header
+  label: Content header
+  type: text
+  hidden: false
+  default: ''
+- name: content-paragraph
+  label: Content paragraph
+  type: textarea
+  hidden: false
+  default: ''
+- name: manage-preferences-button-text
+  label: Manage preferences button text
+  type: text
+  hidden: false
+  default: ''
+- name: consentric-token
+  label: Consentric token
+  type: text
+  hidden: false
+  default: ''
+- name: consentric-widget-id
+  label: Consentric widget id
+  type: text
+  hidden: false
+  default: ''
+- name: consentric-template-id
+  label: Consentric template id
+  type: text
+  hidden: false
+  default: ''
+- name: manage-preferences-link-text
+  label: Manage preferences link text
+  type: text
+  hidden: false
+  default: ''
+- name: unsubscribe-link-text
+  label: Unsubscribe link text
+  type: text
+  hidden: false
+  default: ''
