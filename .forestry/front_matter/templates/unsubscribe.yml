@@ -1,18 +1,18 @@
 ---
 label: unsubscribe
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: unsubscribe
 - name: folder
   label: Folder
   type: text
   hidden: false
-  default: ''
+  default: "/demo"
 - name: logo
   label: Logo
   type: file
@@ -22,17 +22,17 @@ fields:
   label: Unsub banner heading
   type: text
   hidden: false
-  default: ''
+  default: Stay Plugged in to Receive the Best Deals
 - name: widget-heading
   label: Widget heading
   type: text
   hidden: false
-  default: ''
+  default: Manage your Preferences
 - name: offers-row1-heading
   label: Offers row1 heading
   type: text
   hidden: false
-  default: ''
+  default: Get the Latest Broadband
 - name: offers-row1-image
   label: Offers row1 image
   type: file
@@ -42,12 +42,12 @@ fields:
   label: Offers row1 text
   type: text
   hidden: false
-  default: ''
+  default: Exciting phone and Broadband Bundles.
 - name: offers-row2-heading
   label: Offers row2 heading
   type: text
   hidden: false
-  default: ''
+  default: Save £1000 off a new Boiler
 - name: offers-row2-image
   label: Offers row2 image
   type: file
@@ -57,4 +57,4 @@ fields:
   label: Offers row2 text
   type: text
   hidden: false
-  default: ''
+  default: Great savings on named brand boilers such as Worcestor, Bosch and Potterton.
