@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<body>
+	{% include nav-header.html %}
+	<!-- Banner -->
+	<section id="unsubbanner">
+		<div class="inner">
+			<h1>{{ page.unsub-banner-heading}}
+				<span><br />
+				</span>
+			</h1>
+		</div>
+	</section>
+
+	<!-- Two -->
+	<section id="two">
+		<div class="inner">
+			<article>
+				<div class="content">
+					<header>
+						<h3>{{page.widget-heading}}</h3>
+					</header>
+					<div id="widget-container"></div>
+				</div>
+			</article>
+			<article class="alt">
+				<div class="content">
+					<header>
+						<h3>{{ page.offers-row1-heading }}</h3>
+					</header>
+					<div class="image fit">
+						<img src="{{ page.offers-row1-image | relative_url }}" alt="" />
+					</div>
+					<p>{{ page.offers-row1-text }}</p>
+				</div>
+				<div class="content">
+					<header>
+						<h3>{{ page.offers-row2-heading }}</h3>
+					</header>
+					<div class="image fit">
+						<img src="{{ page.offers-row2-image | relative_url }}" alt="" />
+					</div>
+					<p>{{ page.offers-row2-text }}</p>
+				</div>				
+			</article>
+		</div>
+	</section>
+
+	{% include footer.html %}
+
+	<!-- Scripts -->
+	{% include scripts.html %}	
+	<script src="{{ '/assets/js/widget-extension.js' | relative_url }}"></script>
+	<script async>
+		var urlParams = new URLSearchParams(window.location.search);
+		var templateId = urlParams.get('templateId');
+		var widgetId = urlParams.get('widgetId') || '';
+
+		var widget_config = {
+			templateId: `${templateId}`,
+			widgetId: `${widgetId}`
+		};
+
+		widget_config.onOptionChange = function (data) {
+			console.log("############## On Change");
+			console.log(data);
+			
+
+		};
+		
+		widget_config.onLoad = function (arrayOfData) {
+			initialisePageState(arrayOfData);
+    	};
+
+		(function () {
+			var d = document, s = d.createElement('script');
+			s.src = `https://demo-widget-v2.consentric.io/public/init.js`;
+			s.id = 'init';
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>

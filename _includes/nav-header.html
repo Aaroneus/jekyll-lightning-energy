@@ -3,7 +3,7 @@
 	<div class="inner">
 		<img class="logo" src="{{ page.logo | relative_url }}" width="200px" height="100px" />
 		<nav id="nav">
-			<a href="{{ 'index.html' | relative_url }}">Home</a>
+			<a href="{{ page.folder | append: '/landing-page.html' | relative_url }}">Home</a>
             <a href="#">Products</a>
             <a href="#">About</a>
 			<a href="https://consentricutilitydemo.force.com/myaccount/s/login/">My Account</a>
