@@ -1,7 +1,7 @@
 ---
 layout: unsubscribe
 folder: "/andy"
-logo: "/uploads/axa_logo.png"
+logo: "/uploads/Logo.png"
 main-color: "#FED202"
 unsub-banner-heading: Dog's Trust
 widget-heading: And Stuff
