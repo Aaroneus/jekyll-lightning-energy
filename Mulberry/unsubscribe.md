@@ -1,6 +1,6 @@
 ---
 layout: unsubscribe
-folder: "/demo"
+folder: "/Mulberry"
 logo: "/uploads/lightning-energy-logo-small.png"
 main-color: "#BD10E0"
 header-text-color: "#D83F4A"
