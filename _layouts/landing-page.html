@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+<style>
+    .button.alt {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 2px {{ page.header-text-color }};
+        color: {{ page.header-text-color }} !important;
+    }
+
+	h1, h2, h3, h4, h5, h6 {
+		color: {{ page.header-text-color }};
+	}    
+</style>
+
 {% include nav-header.html %}
 
 {% include banner.html %}
