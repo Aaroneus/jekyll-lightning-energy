@@ -24,6 +24,13 @@ fields:
     color_format: Hex
   label: 'Main Color '
   default: "#375CCE"
+- type: color
+  config:
+    color_format: Hex
+  label: Header Text Colour
+  name: header-text-color
+  description: The Colour of the Header Text and Box outlines
+  default: "#3F99D8"
 - name: hero-banner-heading
   label: Hero banner heading
   type: text
