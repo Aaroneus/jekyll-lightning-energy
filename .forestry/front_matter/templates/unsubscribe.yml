@@ -24,7 +24,7 @@ fields:
     color_format: Hex
   label: Main Color
 - type: color
-  name: header-text-color  
+  name: header-text-color
   config:
     color_format: Hex
   label: Header Text Color
