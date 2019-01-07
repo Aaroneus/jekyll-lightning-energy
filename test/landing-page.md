@@ -1,6 +1,6 @@
 ---
 layout: landing-page
-folder: "/demo"
+folder: "/test"
 logo: "/uploads/lightning-energy-logo-small.png"
 main-color: "#375CCE"
 header-text-color: "#3F99D8"
