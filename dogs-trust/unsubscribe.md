@@ -10,7 +10,7 @@ offers-row2-text: Great savings on named brand boilers such as Worcestor, Bosch 
   Potterton.
 logo: "/uploads/Logo-1.png"
 main-color: "#FED104"
-header-text-color: ''
+header-text-color: "#000000"
 offers-row1-image: ''
 offers-row2-image: ''
 date: 2019-01-07 09:16:15 +0000
