@@ -1,7 +1,7 @@
 ---
 layout: email
 folder: "/andy"
-logo: "/uploads/axa_logo.png"
+logo: "/uploads/Logo.png"
 title: Andy
 greeting: Hi Andy
 first-paragraph: sdofsdkofjkosdjiojdsafjdsiofjodsj iojdsfikojadsiof jadsiofdsf lkasdkof
