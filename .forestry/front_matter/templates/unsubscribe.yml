@@ -27,7 +27,7 @@ fields:
   name: header-text-color
   config:
     color_format: Hex
-  label: Header Text Color  
+  label: Header Text Color
 - name: unsub-banner-heading
   label: Unsub banner heading
   type: text
