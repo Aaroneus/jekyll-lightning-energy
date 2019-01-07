@@ -17,13 +17,13 @@ fields:
   label: Logo
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/lightning-energy-logo-small.png"
 - type: color
   name: main-color
   config:
     color_format: Hex
   label: 'Main Color '
-  default: "#000290"
+  default: "#375CCE"
 - name: hero-banner-heading
   label: Hero banner heading
   type: text
@@ -63,7 +63,7 @@ fields:
   label: Section two col1 image
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/pic01.jpg"
 - name: section-two-col2-heading
   label: Section two col2 heading
   type: text
@@ -78,7 +78,7 @@ fields:
   label: Section two col2 image
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/radiator-250558_640.jpg"
 - name: section-three-col1-heading
   label: Section three col1 heading
   type: text
@@ -124,11 +124,5 @@ fields:
   type: text
   hidden: false
   default: Learn More
-- type: color
-  name: main-color
-  config:
-    color_format: Hex
-  label: Main Color
-  default: "#003895"
 pages:
 - Axa/landing-page.md
