@@ -3,6 +3,7 @@ layout: unsubscribe
 folder: "/andy"
 logo: "/uploads/Logo.png"
 main-color: "#FED202"
+header-text-color: "#020202"
 unsub-banner-heading: Dog's Trust
 widget-heading: And Stuff
 offers-row1-heading: asdasdasd

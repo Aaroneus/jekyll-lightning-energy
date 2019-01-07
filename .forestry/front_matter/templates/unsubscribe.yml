@@ -27,7 +27,12 @@ fields:
   name: header-text-color
   config:
     color_format: Hex
+<<<<<<< Updated upstream
   label: Header Text Color
+=======
+  label: Header Text Color  
+  default: "#3F99D8"
+>>>>>>> Stashed changes
 - name: unsub-banner-heading
   label: Unsub banner heading
   type: text
