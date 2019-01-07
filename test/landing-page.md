@@ -25,6 +25,5 @@ section-three-col3-heading: Boilers
 section-three-col3-text: Boiler Text
 section-three-col3-button: Learn More
 date: 2019-01-07 15:05:06 +0000
-published: false
 
 ---
