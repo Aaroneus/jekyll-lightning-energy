@@ -17,17 +17,19 @@ fields:
   label: Logo
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/lightning-energy-logo-small.png"
 - type: color
   name: main-color
   config:
     color_format: Hex
   label: Main Color
+  default: "#375CCE"
 - type: color
   name: header-text-color
   config:
     color_format: Hex
   label: Header Text Color
+  default: "#3F99D8"
 - name: unsub-banner-heading
   label: Unsub banner heading
   type: text
@@ -47,7 +49,7 @@ fields:
   label: Offers row1 image
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/pic02.jpg"
 - name: offers-row1-text
   label: Offers row1 text
   type: text
@@ -62,7 +64,7 @@ fields:
   label: Offers row2 image
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/pic09.jpg"
 - name: offers-row2-text
   label: Offers row2 text
   type: text
