@@ -14,6 +14,5 @@ header-text-color: ''
 offers-row1-image: ''
 offers-row2-image: ''
 date: 2019-01-07 09:16:15 +0000
-published: false
 
 ---
