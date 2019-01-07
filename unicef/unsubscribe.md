@@ -8,7 +8,7 @@ offers-row1-text: Exciting phone and Broadband Bundles.
 offers-row2-heading: Save £1000 off a new Boiler
 offers-row2-text: Great savings on named brand boilers such as Worcestor, Bosch and
   Potterton.
-logo: "/uploads/Color-UNICEF-Logo.png"
+logo: "/uploads/Color-UNICEF-Logo-1.png"
 main-color: "#1A85FF"
 header-text-color: ''
 offers-row1-image: ''
