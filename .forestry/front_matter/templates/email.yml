@@ -12,12 +12,12 @@ fields:
   label: Folder
   type: text
   hidden: false
-  default: demo
+  default: "/demo"
 - name: logo
   label: Logo
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/lightning-energy-logo-small.png"
 - name: tab-title
   label: Title
   type: text
@@ -42,12 +42,13 @@ fields:
   label: Main image
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/lightning_email_main_image.jpg"
 - type: color
   name: banner-color
   config:
     color_format: Hex
   label: Banner Color
+  default: "#3F99D8"
 - name: content-header
   label: Content header
   type: text
@@ -67,17 +68,17 @@ fields:
   label: Consentric token
   type: text
   hidden: false
-  default: ''
+  default: "<consentric-access-token>"
 - name: consentric-widget-id
   label: Consentric widget id
   type: text
   hidden: false
-  default: ''
+  default: "<consentric-widget-id>"
 - name: consentric-template-id
   label: Consentric template id
   type: text
   hidden: false
-  default: ''
+  default: "<consentric-template-id>"
 - name: manage-preferences-link-text
   label: Manage preferences link text
   type: text
