@@ -131,6 +131,11 @@ fields:
   type: text
   hidden: false
   default: Learn More
+- type: text
+  name: salesforce-url
+  label: Salesforce URL
+  description: The url for the Salesforce Community My Account Page
+  default: https://consentricutilitydemo.force.com/myaccount/s/login
 pages:
 - Axa/landing-page.md
 - test/landing-page.md
