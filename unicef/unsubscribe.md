@@ -9,7 +9,7 @@ offers-row2-heading: Save £1000 off a new Boiler
 offers-row2-text: Great savings on named brand boilers such as Worcestor, Bosch and
   Potterton.
 logo: "/uploads/Color-UNICEF-Logo.png"
-main-color: "#1A85FF"
+main-color: "#1C90FF"
 header-text-color: ''
 offers-row1-image: ''
 offers-row2-image: ''
