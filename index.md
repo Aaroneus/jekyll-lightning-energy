@@ -1,12 +1,9 @@
----
-layout: readme
----
 # Instructions for use
 
 ### Navigate to [https://forestry.io](https://forestry.io)
 
 You will need to log in as the mld-pre-sales user. 
-This user's details can be found in 1Password (if you don't have access chat woth your nearest friendly pre-sales).
+This user's details can be found in 1Password (if you don't have access chat with your nearest friendly pre-sales).
 
 ### Open up the Demo Site
 
@@ -14,8 +11,7 @@ This user's details can be found in 1Password (if you don't have access chat wot
 * Click 'Create New' on the editor pane.
 * Click 'Folder'
 
-### Name the Folder after the company you are Demoing to i.e. mcdonalds
-Please keep the folder name as one word or a hyphenated word all lower case. i.e. kentucky-fried-chicken
+### Name the Folder after the company you are Demoing to in lower case and hyphenated i.e. kentucky-fried-chicken
 
 ### Click on the Newly Created Folder
 
@@ -45,17 +41,22 @@ This might look like [https://demowebsite.com/demo/unsubscribe?token=1234567890&
 This page will generate an html email that can be copied and pasted into outlook as an example for the client. 
 The email will have consentric links automatically configured to access the unsubscribe page. If this page has not been created, these links will not work.
 
-### Creating a Page
+## Creating a Page
 Click on the Create New Dropdown and select page.
 You will be given the option to create one of the pages above. Select the desired page type.
 
 
 ## Managing a Page's Content
+**When filling out Page's content, please pay attention to the notes below. Otherwise your page will not render correctly.**
 
 Clicking on your newly created page will take you through to a form that can be filled out to manage the content of that page.
 
-Most of these fields are self explanatory just covering text for various sections of the page, 
-however there are a few that MUST be filled in correctly in order to ensure the demo runs as expected.
+There are a few that __MUST__ be filled in correctly in order to ensure the demo runs as expected however most of these fields are self explanatory, just expecting text for various sections of the page.
+
+These are:
+* Layout
+* Folder
+
 
 ### Layout
 The Layout field tells the demo how to draw your page. There are currently three valid entries for this:
@@ -71,7 +72,7 @@ This must be entered with a '/' in front of it and should be what you called you
 Be warned this field is Case Sensitive and again the site will not render correctly if not specified correctly.
 
 ## Saving your changes
-N.B.  If this is the first time you have saved the document you will have to specify a name for the file. Please use the name of the page type here 
+N.B.  If this is the first time you have saved the document you will have to specify a name for the file. Please use the (case sensitive) name of the page type here 
 i.e.
 * email
 * unsubscribe
@@ -86,7 +87,7 @@ In order for your changes to be visible you will need to publish your changes. Y
 
 ## Viewing your changes
 Once your changes have been completed navigate to 
-https://aaroneus.github.io/jekyll-lightning-energy/__FOLDER__/__PAGE_TYPE__.html
+https://mylifedigital.github.io/sales-demo-cms/__FOLDER__/__PAGE_TYPE__.html
 
 i.e.
 [https://aaroneus.github.io/jekyll-lightning-energy/demo/unsubscribe.html](https://aaroneus.github.io/jekyll-lightning-energy/demo/unsubscribe.html)
