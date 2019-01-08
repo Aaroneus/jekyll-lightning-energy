@@ -3,8 +3,9 @@ layout: unsubscribe
 folder: "/dogs-trust"
 unsub-banner-heading: Stay Plugged in to Receive the Best Deals
 widget-heading: Manage your Preferences
-offers-row1-heading: Get the Latest Broadband
-offers-row1-text: Exciting phone and Broadband Bundles.
+offers-row1-heading: Success Stories
+offers-row1-text: We love hearing about our former residents, please share your story
+  with us?
 offers-row2-heading: Save £1000 off a new Boiler
 offers-row2-text: Great savings on named brand boilers such as Worcestor, Bosch and
   Potterton.
