@@ -1,7 +1,7 @@
 ---
 layout: unsubscribe
 folder: "/dogs-trust"
-unsub-banner-heading: Stay Plugged in to Receive the Best Deals
+unsub-banner-heading: LOOKING AFTER YOUR DATA, YOUR WAY
 widget-heading: Manage your Preferences
 offers-row1-heading: SUCCESS STORIES
 offers-row1-text: We love hearing about our former residents, please share your story
