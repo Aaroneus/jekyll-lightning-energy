@@ -1,7 +1,7 @@
 ---
 layout: unsubscribe
 folder: "/unicef"
-unsub-banner-heading: Stay Plugged in to Receive the Best Deals
+unsub-banner-heading: Taking care of your information
 widget-heading: Manage your Preferences
 offers-row1-heading: DONATE AND HELP PROTECT CHILDREN IN EMERGENCIES
 offers-row1-text: ''
