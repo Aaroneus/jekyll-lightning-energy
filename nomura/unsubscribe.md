@@ -1,7 +1,7 @@
 ---
 layout: unsubscribe
 folder: "/demo"
-logo: "/uploads/nomura-logo-476x256.gif"
+logo: "/uploads/nomura-logo-476x256-1.gif"
 main-color: "#C0002A"
 header-text-color: "#C0002A"
 unsub-banner-heading: Stay Plugged in to Receive the Best Deals
