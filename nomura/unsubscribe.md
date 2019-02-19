@@ -6,13 +6,12 @@ main-color: "#C0002A"
 header-text-color: "#C0002A"
 unsub-banner-heading: Stay Plugged in to Receive the Best Deals
 widget-heading: Manage your Preferences
-offers-row1-heading: Get the Latest Broadband
-offers-row1-image: "/uploads/pic02.jpg"
-offers-row1-text: Exciting phone and Broadband Bundles.
-offers-row2-heading: Save £1000 off a new Boiler
-offers-row2-image: "/uploads/pic09.jpg"
-offers-row2-text: Great savings on named brand boilers such as Worcestor, Bosch and
-  Potterton.
+offers-row1-heading: Nomura Report 2018
+offers-row1-image: "/uploads/Nomura Report 2018.jpg"
+offers-row1-text: ''
+offers-row2-heading: Nomura at a Glance
+offers-row2-image: "/uploads/Nomura at a Glance.jpg"
+offers-row2-text: ''
 date: 2019-02-19 16:25:16 +0000
 
 ---
