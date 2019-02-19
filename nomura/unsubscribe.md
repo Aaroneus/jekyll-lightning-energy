@@ -2,8 +2,8 @@
 layout: unsubscribe
 folder: "/demo"
 logo: "/uploads/nomura-logo-476x256.gif"
-main-color: "#CA142A"
-header-text-color: "#CA142A"
+main-color: "#C0002A"
+header-text-color: "#C0002A"
 unsub-banner-heading: Stay Plugged in to Receive the Best Deals
 widget-heading: Manage your Preferences
 offers-row1-heading: Get the Latest Broadband
